@@ -10,6 +10,7 @@ Ensure you have the latest version of the repository locally:
 ```sh
 git clone <repository-url>
 cd <repository-directory>
+´´´
 
 ### 2. Remove the File and Its History
 git filter-branch --force --index-filter \
