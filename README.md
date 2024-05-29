@@ -1,9 +1,3 @@
-Here's the corrected version of the `README.md` file with the script block properly closed:
-
-### README.md
-
-Create a `README.md` file with the following content:
-
 ```markdown
 # Removing a File and Its History from a GitLab Repository
 
