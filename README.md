@@ -145,7 +145,7 @@ Rewriting history is a destructive action. Ensure you have a backup before perfo
 This process affects all branches. Adjust the --all option if you need to target specific branches.
 Once these steps are completed, the file and its history will be removed from the Git repository. Local copies of the repository with the file still present will need to be re-cloned to reflect the changes.
 By following these steps, our team can ensure that sensitive or unwanted files are completely removed from our GitLab project and its history, including local copies and backups.
-
+lol
 Copy code
 Commit and Push the Changes:
 
