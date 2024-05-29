@@ -35,7 +35,8 @@ Create a `cleanup_script.sh` file with the following content:
 
 # Function to wait for user confirmation
 wait_for() {
-    read -p "Press Enter to continue..."
+    echo "Waiting for the last command to finish..."
+    wait
 }
 
 # Check if a file path was provided
