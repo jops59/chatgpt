@@ -1,4 +1,3 @@
-```markdown
 # Removing a File and Its History from a GitLab Repository
 
 ## Objective
@@ -26,7 +25,6 @@ chmod +x cleanup_script.sh
 - Once these steps are completed, the file and its history will be removed from the Git repository. Local copies of the repository with the file still present will need to be re-cloned to reflect the changes.
 
 By following these steps, our team can ensure that sensitive or unwanted files are completely removed from our GitLab project and its history, including local copies and backups.
-```
 
 ### cleanup_script.sh
 
@@ -84,7 +82,7 @@ echo "Inform all collaborators to re-clone the repository and delete their local
 echo "rm -f $FILE_PATH"
 ```
 
-### Summary of Commands
+## Summary of Commands
 
 Here’s a summary of the commands to create the files and push them to GitHub:
 
@@ -102,5 +100,3 @@ Here’s a summary of the commands to create the files and push them to GitHub:
    git commit -m "Add instructions and script for removing a file and its history from a GitLab repository"
    git push origin main
    ```
-
-By following these steps, you can create a new repository on GitHub with a README file and a bash script to automate the process of  removing a file and its history from a GitLab repository.
